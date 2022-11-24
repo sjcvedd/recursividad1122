@@ -20,7 +20,7 @@ class rec{
             return false;
         }
         if (palabra[letra].equals("a") ) {
-            System.out.println("La letra \"a\" \rSI existe dentro de la palabra \"" + String.join("", palabra)+"\"");
+                System.out.println("La letra \"a\" \tSI existe dentro de la palabra \"" + String.join("", palabra)+"\"");
             return true;
         }
         return letraenpalabra(palabra, letra+1);
